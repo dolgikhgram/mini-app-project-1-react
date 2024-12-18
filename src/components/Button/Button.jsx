@@ -4,7 +4,7 @@ import './Button.css'
 const Button = ({onClick,title}) => {
     return (
         <>
-            <button onClick={onClick}>{title}</button>
+            <button className="button" onClick={onClick}>{title}</button>
         </>
     )
 }
