@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import Button from "../Button/Button";
-import './Header'
+import './Header.css'
 import { useTelegram } from "../../hooks/useTelegram";
 
 const Header = () =>{
