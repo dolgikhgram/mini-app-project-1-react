@@ -1,10 +1,10 @@
 import React from "react";
 import './Button.css'
 
-const Button = ({onClick,title}) => {
+const Button = ({onClick,title,className}) => {
     return (
         <>
-            <button className="button" onClick={onClick}>{title}</button>
+            <button className={"button" + className} onClick={onClick}>{title}</button>
         </>
     )
 }
