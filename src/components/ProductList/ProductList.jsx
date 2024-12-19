@@ -43,11 +43,13 @@ export const ProductList = () =>{
         <div className="list">
             {
                 products.map(item => (
-                    <ProductItem
+                    <div className="product">
+                        <ProductItem
                         product={item}
                         onAdd={onAdd}
                         className={'item'}
-                    />
+                        />
+                    </div>
                 ))
             }
         </div>
